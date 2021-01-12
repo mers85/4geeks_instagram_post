@@ -2,11 +2,6 @@ body {
     background-color:  #191919;
     padding: 0;
     margin: 0;
-}
-
-.wrapper {
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -14,10 +9,20 @@ body {
     align-items: center;
 }
 
+.wrapper {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    background-color:  black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+
 .card {
     background-color: #ffffff;
-    width: 30%;
-    height: 40%;
+    width: 53%;
     margin: 3em;
     border-radius: 1%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
