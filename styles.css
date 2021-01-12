@@ -1,0 +1,93 @@
+body {
+    background-color:  #191919;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 30%;
+    height: 40%;
+    margin: 3em;
+    border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-header {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.logo-header{
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    margin-left: 0.8em;
+}
+.title-header{
+    flex-grow: 0.5;
+    flex-wrap: wrap;
+}
+.icon-menu-header{
+    display: flex;
+    align-items: center;
+    flex-grow: 90;
+    margin-right: 0.8em;
+    flex-flow: wrap;
+    justify-content: right;
+}
+
+.card-body img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.card-icon-actions {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 0.8em;
+}
+.icon-favorite{ 
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 0.8em;
+}
+.icon-comment{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.icon-send{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.icon-bookmark{
+    display: flex;
+    align-items: center;
+    flex-grow: 80;
+    margin-right: 0.8em;
+    flex-flow: wrap;
+    justify-content: right;
+}
+
+.tags{
+    margin: 0;
+    padding: 1em;
+    text-align: left;
+}
+
+.card-footer p{
+    margin: 0;
+    padding: 1em;
+    color: #616161;
+    text-align: justify;
+}
