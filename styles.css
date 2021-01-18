@@ -9,8 +9,9 @@ body {
 
 .wrapper {
     margin: 0;
-    padding-bottom: 2em;
+    padding: 0;
     width: 60%;
+    height: 100vh;
     background-color:  black;
     display: flex;
     flex-flow: column;
@@ -20,14 +21,14 @@ body {
 .card {
     background-color: #ffffff;
     width: 53%;
-    margin: 3em;
+    margin: 3rem;
     border-radius: 1%;
 }
+
 .card-header {
     display: flex;
     flex-wrap: wrap;
 }
-
 .logo-header{
     display: flex;
     align-items: center;
@@ -54,7 +55,6 @@ body {
 .card-footer {
     margin: 0.3em;
 }
-
 .card-footer-icon-actions {
     display: flex;
     padding-top: 0.8em;
@@ -79,13 +79,11 @@ body {
     flex-flow: wrap;
     justify-content: flex-end;
 }
-
 .card-footer-tags {
     margin-top: 1em;
     padding: 0.8em;
     text-align: left;
 }
-
 .card-footer-text {
     margin-bottom: 1em;
     padding: 0.8em;
